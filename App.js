@@ -40,11 +40,11 @@ app.use('/product',productRouter);
 app.use('/review',reviewRouter);
 app.use('/image',imageRouter);
 
-//app.get('/',(req,res)=>{
-//    res.send({
-//         message: "welcome",
-//    })
-//});
+app.get('/',(req,res)=>{
+   res.send({
+        message: "welcome",
+   })
+});
 
 //app.get('*', (req,res) =>{
   //res.sendFile(path.resolve(__dirname,`./dist/index.html`));
